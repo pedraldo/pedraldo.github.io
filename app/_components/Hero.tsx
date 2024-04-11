@@ -1,21 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { ComponentPropsWithoutRef } from "react";
+import { Code } from "./Code";
 import { Section } from "./Section";
 import { LinkedInIcon } from "./icons/LinkedInIcon";
-
-const Code = ({ className, ...props }: ComponentPropsWithoutRef<"span">) => {
-  return (
-    <span
-      className={cn(
-        "bg-accent/30 hover:bg-accent/50 font-mono border border-accent px-1 py-0.5 rounded-sm text-primary transition-colors",
-        className
-      )}
-      {...props}
-    />
-  );
-};
 
 export const Hero = () => {
   return (
