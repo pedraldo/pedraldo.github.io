@@ -38,7 +38,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     Logo: Gift,
     title: "Regalo",
     description: "Offrez des cadeaux qui plairont.",
-    url: "https://github.com/pedraldo/reaglo",
+    url: "https://github.com/pedraldo/regalo",
     badge: {
       text: "Initialisation",
       color: "white",
